@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tonight We Ride</title>
+  <meta name="description" content="Tonight We Ride — a living, breathing movement rooted in service and community." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Outside moveable background (black) -->
+  <div class="bg" id="bg" aria-hidden="true">
+    <div class="bg__grain"></div>
+  </div>
+
+  <div class="stage" id="stage">
+    <section class="canvas" role="region" aria-label="Fullscreen canvas">
+
+      <!-- Top chrome -->
+      <div class="chrome">
+        <div class="chrome__left">
+          <div class="logoMarks" aria-hidden="true">
+            <span></span><span></span>
+          </div>
+        </div>
+
+        <div class="chrome__right">
+          <button class="iconDot" aria-label="Dot (decorative)"></button>
+          <button class="iconMoon" aria-label="Moon (decorative)"></button>
+          <button class="iconGrid" aria-label="Grid (decorative)">
+            <span></span><span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Scrollable content -->
+      <div class="scroll" id="scroll">
+
+        <!-- Sticky header -->
+        <header class="headerSticky">
+          <div class="headerBlock">
+            <h1 class="title">Tonight We Ride</h1>
+            <div class="rule"></div>
+          </div>
+        </header>
+
+        <!-- HERO -->
+        <section class="heroCard" aria-label="Hero">
+          <div class="heroCard__logo">
+            <img src="TonightWeRideLogo.png" alt="Tonight We Ride logo" />
+          </div>
+
+          <div class="heroCard__copy heroCard__copy--solid">
+            <h2 class="heroCard__headline">Changing the world, one person at a time.</h2>
+
+            <div class="heroButtons">
+              <a class="btnGold" href="#programs">Volunteer</a>
+              <a class="btnGold" href="emergency-relief.html">Donate</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Mission -->
+        <section class="metaRow" aria-label="Mission">
+          <div class="pillRow">
+            <span class="pill">Mission</span>
+
+            <div class="pillValue missionCopy">
+              <div class="missionTitle">The Heart of Tonight We Ride</div>
+
+              <p class="missionP">
+                At its core, Tonight We Ride exists to restore dignity, hope, and human connection to people who are often invisible —
+                starting right here in Dallas.
+              </p>
+
+              <div class="missionDivider"></div>
+
+              <div class="missionCallout">
+                <span class="missionCallout__top">Not just through charity…</span>
+                <span class="missionCallout__bottom">…but through relationship, consistency, and presence.</span>
+              </div>
+
+              <div class="missionDivider"></div>
+
+              <p class="missionP missionP--strong">
+                You don’t want TWR to be a “once-a-year feel good” nonprofit.
+                You want it to be a living, breathing movement rooted in service and community.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Programs (row layout) -->
+        <section class="sectionShell" id="programs" aria-label="Our Programs">
+          <div class="sectionHeaderRow">
+            <div class="sectionHeaderRow__title">Our Programs</div>
+            <div class="sectionHeaderRow__line"></div>
+          </div>
+
+          <!-- Program 1 -->
+          <article class="contentRow">
+            <div class="contentRow__art" aria-hidden="true">
+              <div class="sketch">
+                <div class="sketch__label">IMAGE / ART</div>
+              </div>
+            </div>
+
+            <div class="contentRow__body">
+              <h3 class="rowTitle">Homeless Outreach</h3>
+
+              <p class="bodyP">
+                Consistent outreach with practical support and relationship-first care. We meet people where they are and return again and again.
+              </p>
+              <p class="bodyP">
+                Use this form to request help, connect someone in need, or volunteer to join an outreach.
+              </p>
+
+              <div class="rowCTA">
+                <a class="btnOnCanvasWide" href="homeless-outreach.html">Learn more</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Program 2 -->
+          <article class="contentRow">
+            <div class="contentRow__art" aria-hidden="true">
+              <div class="sketch">
+                <div class="sketch__label">IMAGE / ART</div>
+              </div>
+            </div>
+
+            <div class="contentRow__body">
+              <h3 class="rowTitle">Veteran Outreach</h3>
+
+              <p class="bodyP">
+                Veterans deserve follow-through. We help with urgent needs, stability resources, and consistent community support.
+              </p>
+              <p class="bodyP">
+                Use this form to request assistance for yourself or someone you know — or to volunteer.
+              </p>
+
+              <div class="rowCTA">
+                <a class="btnOnCanvasWide" href="veteran-outreach.html">Learn more</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Program 3 -->
+          <article class="contentRow">
+            <div class="contentRow__art" aria-hidden="true">
+              <div class="sketch">
+                <div class="sketch__label">IMAGE / ART</div>
+              </div>
+            </div>
+
+            <div class="contentRow__body">
+              <h3 class="rowTitle">Emergency Relief Fund</h3>
+
+              <p class="bodyP">
+                When a crisis hits, waiting weeks can mean everything falls apart. This fund exists for fast, human-centered response.
+              </p>
+              <p class="bodyP">
+                Use this form to request help or support the fund directly.
+              </p>
+
+              <div class="rowCTA">
+                <a class="btnOnCanvasWide" href="emergency-relief.html">Learn more</a>
+              </div>
+            </div>
+          </article>
+
+          <div class="sectionBottomRule"></div>
+        </section>
+
+        <!-- Events -->
+        <section class="sectionShell" id="events" aria-label="Events">
+          <div class="sectionHeaderRow">
+            <div class="sectionHeaderRow__title">Events</div>
+            <div class="sectionHeaderRow__line"></div>
+          </div>
+
+          <article class="contentRow">
+            <div class="contentRow__art" aria-hidden="true">
+              <div class="sketch">
+                <div class="sketch__label">EVENT IMAGE</div>
+              </div>
+            </div>
+
+            <div class="contentRow__body">
+              <h3 class="rowTitle">Toy Drive</h3>
+
+              <p class="bodyP">
+                Live music. Community. Holiday giving. The Toy Drive brings people together to put help directly into the hands of local families.
+              </p>
+
+              <div class="rowCTA">
+                <a class="btnOnCanvasWide" href="toy-drive/">View event</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="contentRow">
+            <div class="contentRow__art" aria-hidden="true">
+              <div class="sketch">
+                <div class="sketch__label">EVENT IMAGE</div>
+              </div>
+            </div>
+
+            <div class="contentRow__body">
+              <h3 class="rowTitle">Crisis Relief</h3>
+
+              <p class="bodyP">
+                When the unexpected happens, we step in quickly — with resources, coordination, and real presence in the community.
+              </p>
+
+              <div class="rowCTA">
+                <a class="btnOnCanvasWide" href="emergency-relief.html">Get help</a>
+              </div>
+            </div>
+          </article>
+
+          <div class="sectionBottomRule"></div>
+        </section>
+
+        <!-- Footer (canvas yellow background) -->
+        <footer class="ssFooter" id="footer" aria-label="Footer">
+          <div class="ssFooter__inner">
+
+            <div class="ssFooter__mark" aria-hidden="true">
+              <div class="markPattern">TWR</div>
+            </div>
+
+            <div class="ssFooter__ctas">
+              <a class="btnOnCanvasWide btnOnCanvasWide--footer" href="homeless-outreach.html">GET HELP</a>
+              <a class="btnOnCanvasWide btnOnCanvasWide--footer" href="emergency-relief.html">DONATE</a>
+              <a class="btnOnCanvasWide btnOnCanvasWide--footer" href="toy-drive/">TOY DRIVE</a>
+            </div>
+
+            <div class="ssFooter__right">
+              <div class="ssFooter__lead">
+                Tonight We Ride supports our neighbors by putting help directly where it’s needed most.
+              </div>
+
+              <div class="ssFooter__cols">
+                <div class="ssFooter__col">
+                  <a href="#">About Us</a>
+                  <a href="#">News + Updates</a>
+                  <a href="#">People + Partners</a>
+                  <a href="#">Our Impact</a>
+                </div>
+                <div class="ssFooter__col">
+                  <a href="#">How to Help</a>
+                  <a href="#events">Events</a>
+                  <a href="#programs">Programs</a>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+
+              <div class="ssFooter__signup">
+                <div class="ssFooter__signupTitle">Sign up for email list</div>
+                <div class="ssFooter__signupRow">
+                  <div class="ssFooter__signupLine"></div>
+                  <a class="ssFooter__signupBtn" href="#">SIGN UP <span aria-hidden="true">→</span></a>
+                </div>
+              </div>
+
+              <div class="ssFooter__meta">
+                <div><span class="ssFooter__metaLabel">FOLLOW US:</span> Instagram / Facebook / LinkedIn</div>
+                <div><span class="ssFooter__metaLabel">REACH OUT:</span> info@tonightweride.org</div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="ssFooter__bottom">
+            <span>© <span id="year"></span> Tonight We Ride</span>
+          </div>
+        </footer>
+
+        <div class="spacer"></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
